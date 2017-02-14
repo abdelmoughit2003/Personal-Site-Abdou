@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .image{
+            background-image: url("https://is5-ssl.mzstatic.com/image/thumb/Purple71/v4/15/f7/78/15f778b2-e140-70aa-4382-35b10659681d/source/512x512bb.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .move{
+            margin-top: 10%;
+            margin-left: 32%;
+        }
+        .form{
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+    <SCRIPT >
+//        <!-- Original:  Aaron Mavrinac  ghent-slicer@geocities.com -->
+//        <!-- Begin
+        xloc = new Array(10);
+        yloc = new Array(10);
+        xloc[0] = "xa";
+        xloc[1] = "xb";
+        xloc[2] = "xc";
+        xloc[3] = "xd";
+        xloc[4] = "xe";
+        xloc[5] = "xf";
+        xloc[6] = "xg";
+        xloc[7] = "xh";
+        xloc[8] = "xi";
+        xloc[9] = "xj";
+        yloc[0] = "ya";
+        yloc[1] = "yb";
+        yloc[2] = "yc";
+        yloc[3] = "yd";
+        yloc[4] = "ye";
+        yloc[5] = "yf";
+        yloc[6] = "yg";
+        yloc[7] = "yh";
+        yloc[8] = "yi";
+        yloc[9] = "yj";
+        today=new Date();
+        jran=today.getTime();
+        var number=10;
+        var random_numx=0;
+        ia=9301;
+        ic=49297;
+        im=233280;
+        jran = (jran*ia+ic) % im;
+        random_numx=Math.ceil( (jran/(im*1.0)) *number);
+        today=new Date();
+        jran=today.getTime();
+        var number=10;
+        var random_numy=0;
+        ia=9301;
+        ic=49297;
+        im=233280;
+        jran = (jran*ia+ic) % im;
+        random_numy=Math.ceil( (jran/(im*1.0)) *number);
+        spyloc = xloc[random_numx-1] + yloc[random_numy-1]
+        function search(loc) {
+            if (loc==spyloc) {
+                alert("\n\nCongrats!  Bravo!  Good job!");
+                alert("\n\nYou found the spy in " + guesses + " guesses!");
+            }
+            else {
+                alert("Nothing here.")
+            }
+        }
+        // End -->
+    </script>
+
+</head>
+<body class="image">
+<div class="move" >
+<FORM method="POST" name="searchb">
+    <input class="form" type=checkbox onClick="javascript:search('xaya');">
+    <input class="form" type=checkbox onClick="javascript:search('xbya');">
+    <input class="form" type=checkbox onClick="javascript:search('xcya');">
+    <input class="form" type=checkbox onClick="javascript:search('xdya');">
+    <input class="form" type=checkbox onClick="javascript:search('xeya');">
+    <input class="form" type=checkbox onClick="javascript:search('xfya');">
+    <input class="form" type=checkbox onClick="javascript:search('xgya');">
+    <input class="form" type=checkbox onClick="javascript:search('xhya');">
+    <input class="form" type=checkbox onClick="javascript:search('xiya');">
+    <input class="form" type=checkbox onClick="javascript:search('xjya');"><br>
+    <input class="form" type=checkbox onClick="javascript:search('xayb');">
+    <input class="form" type=checkbox onClick="javascript:search('xbyb');">
+    <input class="form" type=checkbox onClick="javascript:search('xcyb');">
+    <input class="form" type=checkbox onClick="javascript:search('xdyb');">
+    <input class="form" type=checkbox onClick="javascript:search('xeyb');">
+    <input class="form" type=checkbox onClick="javascript:search('xfyb');">
+    <input class="form" type=checkbox onClick="javascript:search('xgyb');">
+    <input class="form" type=checkbox onClick="javascript:search('xhyb');">
+    <input class="form" type=checkbox onClick="javascript:search('xiyb');">
+    <input class="form" type=checkbox onClick="javascript:search('xjyb');"><br>
+    <input class="form" type=checkbox onClick="javascript:search('xayc');">
+    <input class="form" type=checkbox onClick="javascript:search('xbyc');">
+    <input class="form" type=checkbox onClick="javascript:search('xcyc');">
+    <input class="form" type=checkbox onClick="javascript:search('xdyc');">
+    <input class="form" type=checkbox onClick="javascript:search('xeyc');">
+    <input class="form" type=checkbox onClick="javascript:search('xfyc');">
+    <input class="form" type=checkbox onClick="javascript:search('xgyc');">
+    <input class="form" type=checkbox onClick="javascript:search('xhyc');">
+    <input class="form" type=checkbox onClick="javascript:search('xiyc');">
+    <input class="form" type=checkbox onClick="javascript:search('xjyc');"><br>
+    <input class="form" type=checkbox onClick="javascript:search('xayd');">
+    <input class="form" type=checkbox onClick="javascript:search('xbyd');">
+    <input class="form" type=checkbox onClick="javascript:search('xcyd');">
+    <input class="form" type=checkbox onClick="javascript:search('xdyd');">
+    <input class="form" type=checkbox onClick="javascript:search('xeyd');">
+    <input class="form" type=checkbox onClick="javascript:search('xfyd');">
+    <input class="form" type=checkbox onClick="javascript:search('xgyd');">
+    <input class="form" type=checkbox onClick="javascript:search('xhyd');">
+    <input class="form" type=checkbox onClick="javascript:search('xiyd');">
+    <input class="form" type=checkbox onClick="javascript:search('xjyd');"><br>
+    <input class="form" type=checkbox onClick="javascript:search('xaye');">
+    <input class="form" type=checkbox onClick="javascript:search('xbye');">
+    <input class="form" type=checkbox onClick="javascript:search('xcye');">
+    <input class="form" type=checkbox onClick="javascript:search('xdye');">
+    <input class="form" type=checkbox onClick="javascript:search('xeye');">
+    <input class="form" type=checkbox onClick="javascript:search('xfye');">
+    <input class="form" type=checkbox onClick="javascript:search('xgye');">
+    <input class="form" type=checkbox onClick="javascript:search('xhye');">
+    <input class="form" type=checkbox onClick="javascript:search('xiye');">
+    <input class="form" type=checkbox onClick="javascript:search('xjye');"><br>
+    <input class="form" type=checkbox onClick="javascript:search('xayf');">
+    <input class="form" type=checkbox onClick="javascript:search('xbyf');">
+    <input class="form" type=checkbox onClick="javascript:search('xcyf');">
+    <input class="form" type=checkbox onClick="javascript:search('xdyf');">
+    <input class="form" type=checkbox onClick="javascript:search('xeyf');">
+    <input class="form" type=checkbox onClick="javascript:search('xfyf');">
+    <input class="form" type=checkbox onClick="javascript:search('xgyf');">
+    <input class="form" type=checkbox onClick="javascript:search('xhyf');">
+    <input class="form" type=checkbox onClick="javascript:search('xiyf');">
+    <input class="form" type=checkbox onClick="javascript:search('xjyf');"><br>
+    <input class="form" type=checkbox onClick="javascript:search('xayg');">
+    <input class="form" type=checkbox onClick="javascript:search('xbyg');">
+    <input class="form" type=checkbox onClick="javascript:search('xcyg');">
+    <input class="form" type=checkbox onClick="javascript:search('xdyg');">
+    <input class="form" type=checkbox onClick="javascript:search('xeyg');">
+    <input class="form" type=checkbox onClick="javascript:search('xfyg');">
+    <input class="form" type=checkbox onClick="javascript:search('xgyg');">
+    <input class="form" type=checkbox onClick="javascript:search('xhyg');">
+    <input class="form" type=checkbox onClick="javascript:search('xiyg');">
+    <input class="form" type=checkbox onClick="javascript:search('xjyg');"><br>
+    <input class="form" type=checkbox onClick="javascript:search('xayh');">
+    <input class="form" type=checkbox onClick="javascript:search('xbyh');">
+    <input class="form" type=checkbox onClick="javascript:search('xcyh');">
+    <input class="form" type=checkbox onClick="javascript:search('xdyh');">
+    <input class="form" type=checkbox onClick="javascript:search('xeyh');">
+    <input class="form" type=checkbox onClick="javascript:search('xfyh');">
+    <input class="form" type=checkbox onClick="javascript:search('xgyh');">
+    <input class="form" type=checkbox onClick="javascript:search('xhyh');">
+    <input class="form" type=checkbox onClick="javascript:search('xiyh');">
+    <input class="form" type=checkbox onClick="javascript:search('xjyh');"><br>
+    <input class="form" type=checkbox onClick="javascript:search('xayi');">
+    <input class="form" type=checkbox onClick="javascript:search('xbyi');">
+    <input class="form" type=checkbox onClick="javascript:search('xcyi');">
+    <input class="form" type=checkbox onClick="javascript:search('xdyi');">
+    <input class="form" type=checkbox onClick="javascript:search('xeyi');">
+    <input class="form" type=checkbox onClick="javascript:search('xfyi');">
+    <input class="form" type=checkbox onClick="javascript:search('xgyi');">
+    <input class="form" type=checkbox onClick="javascript:search('xhyi');">
+    <input class="form" type=checkbox onClick="javascript:search('xiyi');">
+    <input class="form" type=checkbox onClick="javascript:search('xjyi');"><br>
+    <input class="form" type=checkbox onClick="javascript:search('xayj');">
+    <input class="form" type=checkbox onClick="javascript:search('xbyj');">
+    <input class="form" type=checkbox onClick="javascript:search('xcyj');">
+    <input class="form" type=checkbox onClick="javascript:search('xdyj');">
+    <input class="form" type=checkbox onClick="javascript:search('xeyj');">
+    <input class="form" type=checkbox onClick="javascript:search('xfyj');">
+    <input class="form" type=checkbox onClick="javascript:search('xgyj');">
+    <input class="form" type=checkbox onClick="javascript:search('xhyj');">
+    <input class="form" type=checkbox onClick="javascript:search('xiyj');">
+    <input class="form" type=checkbox onClick="javascript:search('xjyj');"><br>
+</FORM>
+</div>
+</body>
+</html>

@@ -1,0 +1,135 @@
+
+.fluid-container{
+
+    height: 550px;
+    width: 37%;
+    min-width: 300px;
+    margin-left: 30%;
+    border: 2px solid black;
+    background-color:dodgerblue;
+}
+body{
+    background-image: url("../../assets/images/calculator.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+}
+.btn{
+    height: 50px;
+    width:25%;
+    background-color: #4cae4c;
+    border: 2px solid black;
+    font-size: 25px;
+}
+#left{
+    height: 50px;
+    width:35%;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    font-size: 25px;
+}
+#right{
+    height: 50px;
+    width:35%;
+    border: 2px solid black;
+    font-size: 25px;
+}
+#middle{
+    height: 50px;
+    width:25%;
+    border: 2px solid black;
+    font-size: 25px;
+}
+#calcul{
+    text-decoration: underline;
+
+
+}
+#name{
+
+}
+.btnop{
+    height: 50px;
+    width:20%;
+    background-color: greenyellow;
+    border: 2px solid black;
+    font-size: 25px;
+}
+.btneq{
+    height: 50px;
+    width:20%;
+    background-color: darkblue;
+    border: 2px solid black;
+    font-size: 25px;
+}
+.btnback{
+    height: 50px;
+    width:25%;
+    background-color: #8a6d3b;
+    border: 2px solid black;
+    font-size: 25px;
+}
+.btnper{
+    height: 50px;
+    width:25%;
+    background-color: teal;
+    border: 2px solid black;
+    font-size: 25px;
+}
+.btnplmi{
+    height: 50px;
+    width:25%;
+    background-color: #ac2925;
+    border: 2px solid black;
+    font-size: 25px;
+}
+.btnpower{
+    height: 50px;
+    width:25%;
+    background-color: #f7e1b5;
+    border: 2px solid black;
+    font-size: 25px;
+}
+.btnsq{
+    height: 50px;
+    width:25%;
+    background-color: #c9302c;
+    border: 2px solid black;
+    font-size: 25px;
+}
+.btnp{
+    height: 50px;
+    width:25%;
+    background-color: darkgoldenrod;
+    border: 2px solid black;
+    font-size: 25px;
+}
+.btnd {
+    height: 50px;
+    width: 25%;
+    background-color: #f0ad4e;
+    border: 2px solid black;
+    font-size: 25px;
+}
+.btnpo{
+    height: 50px;
+    width:25%;
+    background-color: fuchsia;
+    border: 2px solid black;
+    font-size: 25px;
+}
+.btnn{
+    height: 50px;
+    width:25%;
+    background-color: grey;
+    border: 2px solid black;
+    font-size: 25px;
+}
+.btnsq{
+    height: 50px;
+    width:20%;
+    background-color: lightseagreen;
+    border: 2px solid black;
+    font-size: 25px;
+}
